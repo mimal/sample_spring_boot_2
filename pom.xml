@@ -36,6 +36,21 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+	
+	
+	<distributionManagement>
+		<repository>
+			<id>demo_upload_repo_2_RELEASE</id>
+			<name>demo_upload_repo_2_RELEASE</name>
+			<url>http://localhost:8081/nexus/content/repositories/demo_upload_repo_2_RELEASE/</url>
+		</repository>
+		<snapshotRepository>
+			<id>demo_upload_repo_2_SNAP</id>
+			<name>demo_upload_repo_2_SNAP</name>
+			<url>http://localhost:8081/nexus/content/repositories/demo_upload_repo_2_SNAP/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 
 	<build>
 		<plugins>
